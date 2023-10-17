@@ -1,6 +1,7 @@
 .header {
 
       height: 100%;
+      box-shadow: $shadow-1;
       
 }
 
@@ -13,4 +14,40 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50% ;
+}
+
+
+.top {
+
+    background-color: #f8f8f8;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+
+    &__container {
+
+        max-width: 95%;
+        margin:0 auto;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__list {
+
+         display: flex;
+         gap:15px;
+
+         li {
+
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap:4px;
+              color:#666;
+              font-size: 0.8rem;
+         }
+
+    }
+
 }

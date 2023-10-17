@@ -5,6 +5,7 @@ import storage from "redux-persist/lib/storage";
 import {persistReducer} from "redux-persist";
 import cart from "./cartSlice";
 
+
 const reducers =  combineReducers({cart});
 const config = {
 
@@ -22,3 +23,4 @@ const store = configureStore({
 })
 
 export default store;
+
